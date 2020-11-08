@@ -5,7 +5,7 @@ $(function () {
     "use strict";
     
     // trigger WOW
-    new WOW({mobile:!1}).init();
+    new WOW().init();
     
     
     // colors option functionality
