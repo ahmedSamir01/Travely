@@ -333,7 +333,7 @@ nav.navbar .container .alter .row > div:nth-of-type(2) {
 }
 @media (max-width: 500px) {
   .TravelBags .container .ba {
-    width: 100%;
+    width: 80%;
   }
 }
 @media (max-width: 1199.98px) {
@@ -346,22 +346,24 @@ nav.navbar .container .alter .row > div:nth-of-type(2) {
     margin-left: -34px;
   }
 }
-.TravelBags .container > .row {
-  padding-top: 52px;
+@media (max-width: 1199.98px) {
+  .TravelBags .container > .row {
+    padding: 30px 52px 0;
+  }
 }
 @media (max-width: 991.98px) {
   .TravelBags .container > .row {
-    padding: 40px;
+    padding:40px 0;
   }
 }
 @media (max-width: 767.98px) {
   .TravelBags .container > .row {
-    padding: 45px;
+    padding: 45px 10px;
   }
 }
 @media (max-width: 575.98px) {
   .TravelBags .container > .row {
-    padding: 35px;
+    padding: 35px 10px;
   }
 }
 @media (min-width: 1300px) {
@@ -370,7 +372,7 @@ nav.navbar .container .alter .row > div:nth-of-type(2) {
   }
 }
 .TravelBags .container > .row h3 {
-  font-family: "Josefin Sans";
+  font-family: "raleway";
   font-weight: bold;
   font-size: 36px;
 }
@@ -447,10 +449,14 @@ nav.navbar .container .alter .row > div:nth-of-type(2) {
   }
 }
 .TravelBags .container > .row .L .row .right-side p {
-  padding-left: 1.5px;
   letter-spacing: 0.1px;
-  padding-right: 10px;
   margin: 17px 0;
+}
+@media (min-width: 1200px) {
+    .TravelBags .container > .row .L .row .right-side p {
+      padding-left: 1.5px;
+      padding-right: 10px;
+    }
 }
 @media (max-width: 991.98px) {
   .TravelBags .container > .row .L .row .right-side p {
