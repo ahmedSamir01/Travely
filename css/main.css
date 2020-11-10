@@ -1,6 +1,10 @@
 body {
-  font-family: "Josefin Sans Light", sans-serif;
+  font-family: josefin-sans, sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
+
+button:focus {box-shadow: none !important}
 
 .overlay {
   left: 0;
@@ -76,6 +80,8 @@ ul {
   border-radius: 45px;
 }
 
+.gard:hover {color: #fff;box-shadow: 10px 10px 25px -7px #66666682}
+
 .textGard {
   background: linear-gradient(270deg, #087793 12%, #01d689 85%);
   -webkit-background-clip: text;
@@ -83,7 +89,8 @@ ul {
 }
 
 .offer {
-  font-family: "Montserrat Medium";
+  font-family: montserrat, sans-serif;
+  font-weight: 500;
   font-size: 13px;
   background-color: #000;
   color: #fff !important;
@@ -277,7 +284,8 @@ nav.navbar .container .alter .row > div:nth-of-type(2) {
   font-size: 14px;
 }
 .header h1 {
-  font-family: "Josefin Sans Regular";
+  font-family: josefin-sans, sans-serif;
+  font-weight: 400;
   font-size: 55px;
   margin-top: 8px;
   margin-bottom: 2px;
@@ -290,6 +298,7 @@ nav.navbar .container .alter .row > div:nth-of-type(2) {
 .header button {
   width: 295px;
   height: 52px;
+  padding-top: 11px;
   font-size: 12px;
 }
 @media (max-width: 400px) {
@@ -322,7 +331,7 @@ nav.navbar .container .alter .row > div:nth-of-type(2) {
 }
 @media (min-width: 1300px) {
   .TravelBags .container {
-    padding: 0 32px;
+    padding: 0 13px;
     max-width: 1366px;
   }
 }
@@ -372,15 +381,16 @@ nav.navbar .container .alter .row > div:nth-of-type(2) {
   }
 }
 .TravelBags .container > .row h3 {
-  font-family: "Josefin Sans";
-  font-weight: bold;
+  font-family: josefin-sans, sans-serif;
+  font-weight: 700;
   font-size: 36px;
 }
 .TravelBags .container > .row .colors {
   padding-left: 0.5px;
 }
 .TravelBags .container > .row h4 {
-  font-family: "Josefin Sans Regular";
+  font-family: josefin-sans, sans-serif;
+  font-weight: 400;
   font-size: 12px;
 }
 @media (min-width: 1200px) {
@@ -627,11 +637,13 @@ nav.navbar .container .alter .row > div:nth-of-type(2) {
   }
 }
 .join h2 {
-  font-family: "Josefin Sans SemiBold";
+  font-family: josefin-sans, sans-serif;
+  font-weight: 600;
 }
 .join h3 {
   margin-top: -7px;
   margin-bottom: -10px;
+  font-weight: 300;
 }
 .join h2, .join h3 {
   font-size: 48px;
@@ -669,7 +681,8 @@ nav.navbar .container .alter .row > div:nth-of-type(2) {
 }
 .join form .inCo button {
   position: absolute;
-  font-family: "Josefin Sans Regular";
+  font-family: josefin-sans, sans-serif;
+  font-weight: 400;
   font-size: 8px;
   height: 44px;
   top: 1px;
@@ -695,7 +708,9 @@ nav.navbar .container .alter .row > div:nth-of-type(2) {
   }
 }
 .market .container > button {
-  font-family: "Josefin Sans Light";
+  position: relative;
+  z-index: 10;
+  padding-top: 11px;
   font-size: 12px;
   width: 295px;
   height: 52px;
@@ -743,7 +758,8 @@ nav.navbar .container .alter .row > div:nth-of-type(2) {
   }
 }
 .market .container .market-header h2 {
-  font-family: "Montserrat SemiBold";
+  font-family: montserrat, sans-serif;
+  font-weight: 600;
   font-size: 36px;
   margin-bottom: 12px;
 }
@@ -753,7 +769,8 @@ nav.navbar .container .alter .row > div:nth-of-type(2) {
   }
 }
 .market .container .market-header span {
-  font-family: "Montserrat Regular";
+  font-family: montserrat, sans-serif;
+  font-weight: 400;
   text-transform: uppercase;
 }
 .market .container .market-header a {
@@ -821,14 +838,20 @@ nav.navbar .container .alter .row > div:nth-of-type(2) {
 .market .container .products .product-info {
   transition: all 0.3s ease-in;
 }
+.market .container .products .product-info .colors2 {
+  margin-top: 6px;
+  padding-left: 0;
+}
 .market .container .products .product-info h5 {
   transition: all 0.3s ease-in;
-  font-family: "Montserrat Regular";
+  font-family: montserrat, sans-serif;
+  font-weight: 400;
   font-size: 14px;
   color: #4e4e4e;
 }
 .market .container .products .product-info span {
-  font-family: "Montserrat Medium";
+  font-family: montserrat, sans-serif;
+  font-weight: 500;
 }
 .market .container .products .row {
   padding: 0;
@@ -850,7 +873,8 @@ nav.navbar .container .alter .row > div:nth-of-type(2) {
   transform: translate(-50%, -50%);
 }
 .market .container .products .sing .overlay button {
-  font-family: "Montserrat Light";
+  font-family: montserrat, sans-serif;
+  font-weight: 300;
   font-size: 10px;
   color: #fff;
   width: 162px;
@@ -1073,7 +1097,8 @@ footer .container .row > div:nth-of-type(4) > span a:hover {
   text-decoration: none;
 }
 footer .container h4 {
-  font-family: "Montserrat SemiBold";
+  font-family: montserrat, sans-serif;
+  font-weight: 600;
   font-size: 24px;
   margin-bottom: 44px;
 }
@@ -1093,7 +1118,8 @@ footer .container h4 {
   }
 }
 footer .container span {
-  font-family: "Montserrat Light";
+  font-family: montserrat, sans-serif;
+  font-weight: 300;
   display: block;
 }
 footer .container span a {
