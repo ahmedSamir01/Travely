@@ -4,7 +4,7 @@ body {
   font-style: normal;
 }
 
-button:focus {box-shadow: none !important}
+button:focus {box-shadow: none}
 
 .overlay {
   left: 0;
@@ -80,7 +80,7 @@ ul {
   border-radius: 45px;
 }
 
-.gard:hover {color: #fff;box-shadow: 10px 10px 25px -7px #66666682}
+.gard:hover {color: #fff;box-shadow: 10px 10px 25px -7px #66666682 !important}
 
 .textGard {
   background: linear-gradient(270deg, #087793 12%, #01d689 85%);
