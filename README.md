@@ -5,7 +5,8 @@ Simple ecommerce website for traveling equipments.
 ## Used technologies:
 
     HTML
-    CSS
+    SASS
+    Pug
     JQuery
     Nicescroll
     Bootstrap
